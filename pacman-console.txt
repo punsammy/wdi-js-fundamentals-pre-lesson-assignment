@@ -1,0 +1,78 @@
+#NODE
+> var ghost = 'Inky';
+undefined
+> ghost
+'Inky'
+> typeof(ghost);
+'string'
+> var numberOfGhosts = 4;
+undefined
+> typeof(numberOfGhosts);
+'number'
+> ghost
+'Inky'
+> ghost = 'Blinky';
+'Blinky'
+> ghost
+'Blinky'
+> var name = 'Pac-Man';
+undefined
+> name
+'Pac-Man'
+> var num_ghosts = 4
+undefined
+
+> var sentence = 'Our hero, ' +name + ', must eat ' + num_ghosts + ' ghosts for maximum points';
+undefined
+> sentence
+'Our hero, Pac-Man, must eat 4 ghosts for maximum points'
+> name.length;
+7
+> name.toUpperCase();
+'PAC-MAN'
+> name.replace('Man', 'Woman');
+'Pac-Woman'
+> Boolean(undefined)
+false
+> Boolean(null)
+false
+> Boolean(false)
+false
+> Boolean(true)
+true
+> Boolean(0)
+false
+> Boolean(1)
+true
+> Boolean('')
+false
+> Boolean('Waka Waka!')
+true
+
+#IRB
+irb(main):001:0> num_that_looks_like_an_integer = 1
+=> 1
+irb(main):002:0> num_that_looks_like_an_float = 1.0
+=> 1.0
+irb(main):003:0> num_that_looks_like_an_integer.class
+=> Fixnum
+irb(main):004:0> num_that_looks_like_an_float.class
+=> Float
+irb(main):005:0> num_that_looks_like_an_integer
+=> 1
+irb(main):006:0> num_that_looks_like_an_float
+=> 1.0
+
+#NODE Comparison
+> var numThatLooksLikeAnInteger = 1;
+undefined
+> var numThatLooksLikeAFloat = 1;
+undefined
+> typeof (numThatLooksLikeAnInteger);
+'number'
+> typeof (numThatLooksLikeAFloat);
+'number'
+> numThatLooksLikeAFloat
+1
+> numThatLooksLikeAnInteger
+1

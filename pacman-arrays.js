@@ -1,9 +1,6 @@
-// console.log('Hello, Pac-Man!');
-// console.log('Pac-Man eats ghosts for lunch');
-
 var ghosts = ['Inky', 'Blinky', 'Pinky', 'Clyde'];
 
-console.log('There are' + ghosts.length + 'ghosts.');
+console.log('There are ' + ghosts.length + ' ghosts.');
 console.log('There names are: ');
 console.log(ghosts[0]);
 console.log(ghosts[1]);
