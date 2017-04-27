@@ -55,3 +55,8 @@ when 'Clyde'
   colour = 'Orange'
 end
 puts "#{ghost} is the colour #{colour}"
+
+#Functions
+def eat_dot
+  puts "MUNCH!"
+end
