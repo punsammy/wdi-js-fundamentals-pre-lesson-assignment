@@ -14,3 +14,8 @@ inky = Ghost.new
 inky.colour = 'Cyan'
 inky.personality = 'Shadow'
 puts inky.inspect
+
+ghosts = %w(Inky Blinky Pinky Clyde)
+ghosts.each do |ghost|
+  puts ghost
+end
