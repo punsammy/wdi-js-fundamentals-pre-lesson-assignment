@@ -9,3 +9,4 @@ for (var index = 0; index < ghosts.length; index++) {
 }
 
 // index-- keeps returned undefined
+// Must type 'break' to stop loop
