@@ -41,3 +41,17 @@ while true do
 end
 
 puts 'Pac-Man goes home after a long day in the maze.'
+
+#Switch
+ghost = 'Pinky'
+case ghost
+when 'Inky'
+  colour = 'Cyan'
+when 'Blinky'
+  colour = 'Red'
+when 'Pinky'
+  colour = 'Pink'
+when 'Clyde'
+  colour = 'Orange'
+end
+puts "#{ghost} is the colour #{colour}"
